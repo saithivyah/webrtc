@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>WebRTC Communication HomePage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<body>
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+      <a href="#home" class="w3-bar-item w3-button">WebRTC Communication</a>
+      <div class="w3-right w3-hide-small">
+        <a href="#filetransfer" class="w3-bar-item w3-button">Filetransfer</a>
+        <a href="#chat" class="w3-bar-item w3-button">Text Chat</a>
+        <a href="#videocall" class="w3-bar-item w3-button">Video Chat</a>
+
+      </div>
+    </div>
+  </div>
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">.
+
+  <img class="w3-image" src="communication.png" alt="image" width="1600" height="800">
+
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">IT'S MY DREAM!!</h1>
+  </div>
+</header>
+<div class="w3-content" style="max-width:1100px">
+  <div class="w3-row w3-padding-64" id="filetransfer">
+   <div class="w3-col m6 w3-padding-large">
+     <a href="file/index.html">
+     <img src="ft1.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="400" height="450">
+   </a>
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">File Transfer using WebRTC</h1><br>
+      <h5 class="w3-center">Transferring files between two browsers means working directly with binary data</h5>
+      <p class="w3-large">WebRTC Datachannels API allows developers to transmit arbitrary data directly between two users.  </p>
+      <p class="w3-large w3-text-grey w3-hide-medium">The idea behind file transfers using WebRTC is to convert files into buffers or DataUrl, transmit them in chunks, then compile them back to the file it originally was, on the receiving end.</p>
+    </div>
+
+  </div>
+  <hr>
+  <div class="w3-row w3-padding-64" id="chat">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Text chat</h1><br>
+      <h4>WebRTC ChatRoom</h4>
+      <h4>TEXT CHATING</h4>
+     <p class="w3-text-grey">WebRTC Datachannel allows the blog to transmit messages as the data packets directly between the peer without any server intervene.</p><br>
+   </div>
+
+ <div class="w3-col l6 w3-padding-large">
+   <a href="chat/index.html">
+   <img src="chat.png" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+ </a>
+ </div>
+</div>
+
+<hr>
+
+  <div class="w3-row w3-padding-64" id="videocall">
+   <div class="w3-col m6 w3-padding-large">
+     <a href="video/index.html">
+     <img src="video.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="500" height="550">
+   </a>
+    </div>
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Video Call using WebRTC</h1><br>
+      <h5 class="w3-center">Video Call between two browsers </h5>
+      <p class="w3-large">WebRTC Datachannels API allows developers to transmit arbitrary data directly between two users.  </p>
+      <p class="w3-large w3-text-grey w3-hide-medium">The idea behind file transfers using WebRTC is to convert files into buffers or DataUrl, transmit them in chunks, then compile them back to the file it originally was, on the receiving end.</p>
+    </div>
+  </div>
+
+</body>
+</html>
